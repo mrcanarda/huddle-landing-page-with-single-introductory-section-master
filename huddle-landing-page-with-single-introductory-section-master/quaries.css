@@ -1,0 +1,72 @@
+.grid {
+    display: grid;
+}
+
+.grid--2-cols {
+    grid-template-columns: 1fr;
+}
+
+.container {
+    background: url(images/bg-mobile.svg);
+    background-size: cover;
+    background-position: center;
+    background-color:hsl(257, 40%, 49%) ;
+    height: 120rem;
+    width: 150rem;
+    margin: 0 auto;
+}
+
+.logo img {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    width: 20rem;
+    margin-bottom: 6rem;
+}
+
+.grid-img img {
+    width: 60rem;
+    margin-left: 4rem;
+}
+
+.exc h2 {
+    font-size: 3.6rem;
+    width: 40%;
+    text-align: center;
+    margin-left: 10rem;
+    font-weight: 600;
+}
+
+.exc p {
+    font-size: 2.4rem;
+    width: 50%;
+    text-align: center;
+    
+}
+
+.btn:link,
+.btn:visited {
+  padding: 1.2rem 10rem;
+  position: relative;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.303);
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  top: 10%;
+  left: 18%;
+  border-radius: 18px;
+  color: hsl(257, 40%, 49%);
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+
+footer {
+    display: flex;
+    margin-top: 12rem;
+    gap: 1.4rem;
+    margin-left: 26rem;
+}

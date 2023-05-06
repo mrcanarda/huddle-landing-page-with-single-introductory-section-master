@@ -1,0 +1,81 @@
+/*  font-family: 'Poppins', sans-serif;   */
+/*  font-family: 'Open Sans', sans-serif;  */
+
+.container {
+    background: url(images/bg-desktop.svg);
+    background-size: cover;
+    background-position: center;
+    background-color:hsl(257, 40%, 49%) ;
+    height: 70rem;
+}
+
+.logo img {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    width: 12rem;
+    margin-bottom: 6rem;
+}
+
+.grid-img img {
+    width: 60rem;
+    margin-left: 4rem;
+}
+
+.exc h2 {
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    color: #fff; 
+    width: 60%;
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+
+.exc p {
+    font-size: 1.4rem;
+    margin-left: 4rem;
+    margin-top: 2rem;
+    width: 81%;
+    color: #fff;
+    line-height: 1.8;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.btn:link,
+.btn:visited {
+  padding: 1.2rem 5rem;
+  position: relative;
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.303);
+  font-size: 1.2rem;
+  font-family: 'Open Sans', sans-serif;
+  top: 7%;
+  left: 8%;
+  border-radius: 18px;
+  color: hsl(257, 40%, 49%);
+  background-color: #fff;
+  text-decoration: none;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+
+footer {
+    display: flex;
+    margin-left: 102rem;
+    margin-top: 8rem;
+    gap: 1.4rem;
+}
+
+.icon-ion {
+font-size: 2rem;
+color: #fff;
+border: solid white;
+border-radius: 50%;
+padding: .5rem .5rem;
+}
